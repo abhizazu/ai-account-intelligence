@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ai-account-intelligence-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: IPINFO_TOKEN
+        sync: false
+      - key: CLEARBIT_API_KEY
+        sync: false
+      - key: BUILTWITH_API_KEY
+        sync: false
