@@ -5,8 +5,8 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    # OpenAI
-    openai_api_key: str = ""
+    # Gemini
+    gemini_api_key: str = ""
 
     # Tavily
     tavily_api_key: str = ""
