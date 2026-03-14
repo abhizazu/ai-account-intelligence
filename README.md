@@ -164,4 +164,4 @@ streamlit run frontend/app.py
 ---
 
 ## 👨💻 Built By
-**abhizazu** — Built in 48 hours for a hackathon.
+**Abhishek D N** 
